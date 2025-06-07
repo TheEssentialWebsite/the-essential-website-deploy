@@ -482,7 +482,7 @@ Cookie consent compliance often becomes the catalyst for broader website improve
 
 **Risk Mitigation**: Professional implementation reduces legal risks, protects brand reputation, and ensures sustainable growth rather than constant firefighting.
 
-Ready to move beyond cookie consent band-aids? <a href="/#strategy-options" class="text-ginger-cta hover:text-ginger-accent underline">Explore strategic website development</a> that anticipates compliance requirements and delivers superior business results.
+Ready to move beyond cookie consent band-aids? <a href="/#strategy-options" class="text-ginger-accent hover:text-ginger-cta underline">Explore strategic website development</a> that anticipates compliance requirements and delivers superior business results.
 
 ## The Path Forward
 
@@ -490,7 +490,7 @@ Cookie consent compliance doesn't have to be a burden. When approached strategic
 
 The choice is clear: continue patching platform limitations or invest in strategic development that solves problems permanently. Your business deserves a website that works as hard as you do.
 
-Need guidance on transforming compliance challenges into competitive advantages? <a href="/chat-with-ginger-sorensen" class="text-ginger-cta hover:text-ginger-accent underline">Let's discuss your specific situation</a> and develop a strategic approach that works for your business.
+Need guidance on transforming compliance challenges into competitive advantages? <a href="/chat-with-ginger-sorensen" class="text-ginger-accent hover:text-ginger-cta underline">Let's discuss your specific situation</a> and develop a strategic approach that works for your business.
     `,author:"Ginger Sorensen",publishedAt:"2024-12-07",readingTime:8,featured:!0,category:"strategy",tags:["GDPR","Website Security","CMS Limitations","Technical Strategy","Business Growth"]},{id:2,slug:"website-security-checklist-for-small-businesses",title:"Website Security Checklist for Small Businesses",excerpt:"Protect your online presence with this essential security checklist. Simple steps to safeguard your website and customer data.",content:`
 ## Website Security Checklist for Small Businesses
 
