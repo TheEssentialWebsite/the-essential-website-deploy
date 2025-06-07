@@ -432,7 +432,7 @@ This band-aid approach creates a dangerous illusion of compliance while actually
 
 *Are you confident your website is truly blocking tracking until consent? Most business owners think they are - until they discover the technical reality.*
 
-Ready to audit your current website's compliance vulnerabilities? [Let's chat for 15 minutes](/chat-with-ginger-sorensen) to assess your specific situation and identify potential risks.
+Ready to audit your current website's compliance vulnerabilities? <a href="/chat-with-ginger-sorensen" className="text-ginger-accent hover:text-ginger-cta underline underline-offset-2 transition-colors duration-200">Let's chat for 15 minutes</a> to assess your specific situation and identify potential risks.
 
 ## Why CMS Platforms Struggle with True Compliance
 
@@ -468,7 +468,7 @@ Most CMS developers focus on making platform tools work together, not on underst
 
 In my experience working with visionary entrepreneurs, those who understand systems thinking immediately grasp why this matters. When you build with clean code from the ground up, you have complete control over when and how tracking initiates.
 
-This is exactly the foundation that [The Essential Build](/the-essential-build) methodology provides - complete architectural control that eliminates compliance guesswork.
+This is exactly the foundation that <a href="/the-essential-build" className="text-ginger-accent hover:text-ginger-cta underline underline-offset-2 transition-colors duration-200">The Essential Build</a> methodology provides - complete architectural control that eliminates compliance guesswork.
 
 ### True Consent Management
 
@@ -605,11 +605,11 @@ If you're reading this and wondering about your own website's compliance, you're
 
 Ready to move beyond platform dependencies and build strategic compliance into your website's foundation? Let's map out exactly how cookie consent compliance fits into your broader digital strategy. 
 
-**Need clarity on your compliance risks and strategic options?** Book a [strategy session](/#strategy-options) to audit your current setup, identify gaps, and create a roadmap for bulletproof privacy compliance that supports your business growth.
+**Need clarity on your compliance risks and strategic options?** Book a <a href="/#strategy-options" className="text-ginger-accent hover:text-ginger-cta underline underline-offset-2 transition-colors duration-200">strategy session</a> to audit your current setup, identify gaps, and create a roadmap for bulletproof privacy compliance that supports your business growth.
 
-Want to explore how this compliance approach could work for your specific business model? [Let's chat for 15 minutes](/chat-with-ginger-sorensen) to discuss your situation and strategic options.
+Want to explore how this compliance approach could work for your specific business model? <a href="/chat-with-ginger-sorensen" className="text-ginger-accent hover:text-ginger-cta underline underline-offset-2 transition-colors duration-200">Let's chat for 15 minutes</a> to discuss your situation and strategic options.
 
-**Stay ahead of digital strategy trends** - [subscribe to more insights](#newsletter-signup) delivered monthly to help you make informed infrastructure decisions.
+**Stay ahead of digital strategy trends** - <a href="#newsletter-signup" className="text-ginger-accent hover:text-ginger-cta underline underline-offset-2 transition-colors duration-200">subscribe to more insights</a> delivered monthly to help you make informed infrastructure decisions.
 
 ---
 
