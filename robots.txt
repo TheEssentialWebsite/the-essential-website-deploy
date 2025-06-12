@@ -1,8 +1,3 @@
-
-User-agent: *
-Allow: /
-
-# Specific permissions for major crawlers
 User-agent: Googlebot
 Allow: /
 
@@ -15,46 +10,5 @@ Allow: /
 User-agent: facebookexternalhit
 Allow: /
 
-User-agent: LinkedInBot
+User-agent: *
 Allow: /
-
-User-agent: WhatsApp
-Allow: /
-
-User-agent: TelegramBot
-Allow: /
-
-User-agent: SkypeUriPreview
-Allow: /
-
-# AI Crawlers
-User-agent: GPTBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: CCBot
-Allow: /
-
-User-agent: anthropic-ai
-Allow: /
-
-User-agent: Claude-Web
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: YouBot
-Allow: /
-
-User-agent: Diffbot
-Allow: /
-
-# Crawl delay
-Crawl-delay: 1
-
-# Sitemap locations - dynamic sitemap preferred, static as backup
-Sitemap: https://theessentialwebsite.com/sitemap
-Sitemap: https://theessentialwebsite.com/sitemap.xml
