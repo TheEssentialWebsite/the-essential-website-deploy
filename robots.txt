@@ -55,5 +55,6 @@ Allow: /
 # Crawl delay
 Crawl-delay: 1
 
-# Sitemap location
+# Sitemap locations - dynamic sitemap preferred, static as backup
+Sitemap: https://theessentialwebsite.com/sitemap
 Sitemap: https://theessentialwebsite.com/sitemap.xml
