@@ -36,4 +36,23 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+  <!-- Individual Insight Posts -->
+  <url>
+    <loc>https://gingersorensen.com/insights/the-many-chapters-of-my-professional-story</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2024-12-11</lastmod>
+  </url>
+  <url>
+    <loc>https://gingersorensen.com/insights/why-im-moving-clients-off-wordpress</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2024-12-10</lastmod>
+  </url>
+  <url>
+    <loc>https://gingersorensen.com/insights/cookie-consent-compliance-exposes-cms-website-flaws</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2024-12-09</lastmod>
+  </url>
 </urlset>
