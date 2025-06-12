@@ -5,7 +5,7 @@
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
-    <!-- Primary Meta Tags -->
+    <!-- Primary Meta Tags - CRITICAL FOR CRAWLERS -->
     <title>Get In Touch | Contact Form | The Essential Website</title>
     <meta name="title" content="Get In Touch | Contact Form | The Essential Website" />
     <meta name="description" content="Send a message to Ginger Sorensen about your website strategy needs. Quick contact form to get the conversation started about your project." />
@@ -13,7 +13,7 @@
     <link rel="canonical" href="https://theessentialwebsite.com/get-in-touch" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     
-    <!-- Open Graph / Facebook -->
+    <!-- Open Graph / Facebook - CRITICAL FOR FACEBOOK SHARING -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://theessentialwebsite.com/get-in-touch" />
     <meta property="og:title" content="Get In Touch | Contact Form | The Essential Website" />
@@ -25,13 +25,13 @@
     <meta property="og:site_name" content="The Essential Website" />
     <meta property="og:locale" content="en_US" />
     
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://theessentialwebsite.com/get-in-touch" />
-    <meta property="twitter:title" content="Get In Touch | Contact Form | The Essential Website" />
-    <meta property="twitter:description" content="Send a message to Ginger Sorensen about your website strategy needs. Quick contact form to get the conversation started about your project." />
-    <meta property="twitter:image" content="https://theessentialwebsite.com/lovable-uploads/0ae4c04e-2f5d-4b7b-bc4d-338a9fde01e3.png" />
-    <meta property="twitter:image:alt" content="Get In Touch | Contact Form | The Essential Website" />
+    <!-- Twitter Card - CRITICAL FOR TWITTER SHARING -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://theessentialwebsite.com/get-in-touch" />
+    <meta name="twitter:title" content="Get In Touch | Contact Form | The Essential Website" />
+    <meta name="twitter:description" content="Send a message to Ginger Sorensen about your website strategy needs. Quick contact form to get the conversation started about your project." />
+    <meta name="twitter:image" content="https://theessentialwebsite.com/lovable-uploads/0ae4c04e-2f5d-4b7b-bc4d-338a9fde01e3.png" />
+    <meta name="twitter:image:alt" content="Get In Touch | Contact Form | The Essential Website" />
     <meta name="twitter:site" content="@theessentialwebsite" />
     <meta name="twitter:creator" content="@gingersorensen" />
     
@@ -47,7 +47,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     
-    <!-- JSON-LD Structured Data -->
+    <!-- JSON-LD Structured Data - CRITICAL FOR GOOGLE -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -76,5 +76,12 @@
   </head>
   <body>
     <div id="root"></div>
+    
+    <!-- Fallback content for crawlers that don't execute JavaScript -->
+    <noscript>
+      <h1>Get In Touch | Contact Form | The Essential Website</h1>
+      <p>Send a message to Ginger Sorensen about your website strategy needs. Quick contact form to get the conversation started about your project.</p>
+      <img src="https://theessentialwebsite.com/lovable-uploads/0ae4c04e-2f5d-4b7b-bc4d-338a9fde01e3.png" alt="Get In Touch | Contact Form | The Essential Website" />
+    </noscript>
   </body>
 </html>
