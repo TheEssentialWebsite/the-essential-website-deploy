@@ -9,6 +9,9 @@
     <title>Your Essential Website Strategy | Strategic Websites You Own, Control & Profit From</title>
     <meta name="description" content="Transform your website with a custom strategy that drives real business results. Expert website strategy and development services from Ginger Sorensen." />
     
+    <!-- Conditional robots meta tag - will be updated by JavaScript for development URLs -->
+    <meta name="robots" content="index, follow" id="robots-meta" />
+    
     <!-- Open Graph tags for Facebook -->
     <meta property="og:title" content="Your Essential Website Strategy | Strategic Websites You Own, Control & Profit From" />
     <meta property="og:description" content="Transform your website with a custom strategy that drives real business results. Expert website strategy and development services from Ginger Sorensen." />
@@ -26,7 +29,6 @@
     <!-- Additional Meta Tags -->
     <meta name="author" content="The Essential Website" />
     <meta name="google-site-verification" content="zzhKYDAFwJjQVfPNm6_KuYUeAgwZgoUATnuW_QisnrA" />
-    <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://GingerSorensen.com" />
     
     <!-- Favicon -->
@@ -37,6 +39,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
+    <!-- Development URL Detection Script -->
+    <script>
+      (function() {
+        const isDevelopmentUrl = window.location.hostname.includes('lovable.app') ||
+                                window.location.hostname.includes('localhost') ||
+                                window.location.hostname.includes('127.0.0.1') ||
+                                window.location.hostname.includes('preview') ||
+                                window.location.hostname.includes('staging');
+        
+        if (isDevelopmentUrl) {
+          const robotsMeta = document.getElementById('robots-meta');
+          if (robotsMeta) {
+            robotsMeta.content = 'noindex, nofollow';
+            console.log('🚫 Development URL detected - set noindex for homepage');
+          }
+        }
+      })();
+    </script>
+    
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -44,7 +65,7 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-NRFCZJBH');</script>
     <!-- End Google Tag Manager -->
-    <script type="module" crossorigin src="/assets/index-CelhX2bh.js"></script>
+    <script type="module" crossorigin src="/assets/index-B-DK1fpq.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-CQcs91_W.css">
   </head>
 
