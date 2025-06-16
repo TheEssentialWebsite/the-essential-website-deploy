@@ -5,6 +5,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
+    <!-- WWW to Non-WWW Redirect Script - Must run first -->
+    <script>
+      (function() {
+        // Check if we're on a www subdomain and redirect to non-www
+        if (window.location.hostname.startsWith('www.')) {
+          const nonWwwUrl = window.location.protocol + '//' + 
+                           window.location.hostname.substring(4) + 
+                           window.location.pathname + 
+                           window.location.search + 
+                           window.location.hash;
+          
+          console.log('🔄 Redirecting from www to non-www:', window.location.href, '→', nonWwwUrl);
+          window.location.replace(nonWwwUrl);
+          return;
+        }
+      })();
+    </script>
+    
     <!-- SEO Meta Tags -->
     <title>Your Essential Website Strategy | Strategic Websites You Own, Control & Profit From</title>
     <meta name="description" content="Transform your website with a custom strategy that drives real business results. Expert website strategy and development services from Ginger Sorensen." />
