@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Generated sitemap - Last updated: 2025-06-12T17:00:00Z -->
 <!-- This sitemap contains all public pages and blog posts for gingersorensen.com -->
@@ -8,7 +9,7 @@
   
   <!-- Primary Site Pages -->
   <url>
-    <loc>https://gingersorensen.com/home</loc>
+    <loc>https://gingersorensen.com/</loc>
     <lastmod>2025-06-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
